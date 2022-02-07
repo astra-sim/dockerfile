@@ -17,24 +17,11 @@
 # apt -y install docker-ce
 ```
 
-## Quick Start (ASTRA-Sim)
+## Quick Start
 ```
-$ cd astra-sim
 $ ./build.sh
 $ docker run -it astra-sim
 # cd astra-sim
 # ./build/astra_analytical/build.sh -c
 # examples/run_allreduce.sh -n analytical
-```
-
-## Quick Start (GitHub Pages)
-```
-$ cd astra-sim.github.io
-$ ./build.sh
-$ docker run -it astra-sim-github-io
-# cd astra-sim.github.io
-# docker run -p 4000:4000 -it astra-sim-pages
-# cd astra-sim.github.io
-# bundle install
-# bundle exec jekyll serve --host=0.0.0.0
 ```
