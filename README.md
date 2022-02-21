@@ -1,4 +1,4 @@
-# ASTRA-Sim Dockerfile
+# Dockerfile
 ## Install Docker (if you have root permission)
 ```
 # apt -y update
