@@ -8,4 +8,6 @@ RUN apt-get -y update \
     libboost-dev libboost-program-options-dev\
     python3 git
 
-RUN git clone --recurse-submodules https://github.com/astra-sim/astra-sim.git
+RUN git clone --recurse-submodules https://github.com/astra-sim/tutorials.git && \
+    cd tutorials/asplos2022/ && \
+    ./clone_astra_sim.sh
